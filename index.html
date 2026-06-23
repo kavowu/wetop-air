@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-TW">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>台灣居家空調專業諮詢中心</title>    
+    <link rel="icon" type="image/png" href="/wetop-air/images/WETOP-LOGO-紅.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="/wetop-air/assets/index-dWO4emiX.js"></script>
+    <link rel="stylesheet" crossorigin href="/wetop-air/assets/index-TBrajmw9.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script>
+      // Load analytics only if endpoint is set
+      const endpoint = "%VITE_ANALYTICS_ENDPOINT%";
+      const websiteId = "%VITE_ANALYTICS_WEBSITE_ID%";
+      if (endpoint && websiteId && !endpoint.startsWith('%') && !websiteId.startsWith('%')) {
+        const script = document.createElement('script');
+        script.defer = true;
+        script.src = `${endpoint}/umami`;
+        script.setAttribute('data-website-id', websiteId);
+        document.body.appendChild(script);
+      }
+    </script>
+  </body>
+
+</html>
