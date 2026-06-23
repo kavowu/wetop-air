@@ -21,7 +21,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <img 
-              src="/images/WETOP-LOGO-紅.png" 
+              src={`${import.meta.env.BASE_URL}images/WETOP-LOGO-紅.png`} 
               alt="WETOP Logo"
               className="h-10 w-auto"
             />

@@ -104,7 +104,7 @@ export default function Contact() {
                 <div className="relative group">
                   <div className="absolute -inset-2 bg-gradient-to-r from-green-400 to-emerald-500 rounded-2xl blur-md opacity-20 group-hover:opacity-35 transition duration-300"></div>
                   <img
-                    src="/images/lineqrcode.png"
+                    src={`${import.meta.env.BASE_URL}images/lineqrcode.png`}
                     alt="LINE QR Code @wetop"
                     className="relative w-40 h-40 rounded-xl border border-gray-100 bg-white p-2 shadow-sm"
                   />

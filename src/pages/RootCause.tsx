@@ -135,7 +135,7 @@ export default function RootCause() {
 
           <div className="mb-8">
             <img 
-              src="/images/空調冷凝示意圖1_0.png" 
+              src={`${import.meta.env.BASE_URL}images/空調冷凝示意圖1_0.png`} 
               alt="空調冷凝（結露）原理示意圖"
               className="w-full rounded-lg shadow-lg mb-6"
             />
@@ -179,7 +179,7 @@ export default function RootCause() {
 
           <div className="mb-8">
             <img 
-              src="/images/回潮效應1_0.png" 
+              src={`${import.meta.env.BASE_URL}images/回潮效應1_0.png`} 
               alt="回潮效應（濕度反彈現象）圖解"
               className="w-full rounded-lg shadow-lg mb-6"
             />

@@ -12,7 +12,7 @@ export default function Home() {
       <section 
         className="relative h-96 md:h-[500px] bg-cover bg-center flex items-center justify-start bg-scroll md:bg-fixed"
         style={{
-          backgroundImage: 'url(/images/hero-modern-ac-environment.webp)',
+          backgroundImage: `url(${import.meta.env.BASE_URL}images/hero-modern-ac-environment.webp)`,
         }}
       >
         {/* Dark Overlay Gradient */}
