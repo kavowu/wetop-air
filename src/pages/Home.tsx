@@ -204,7 +204,7 @@ export default function Home() {
 
           <div className="bg-white rounded-lg border-2 border-gray-200 p-4 sm:p-8 mb-8">
             <img 
-              src="/images/環境溫溼度與露點關係圖.jpg"
+              src={`${import.meta.env.BASE_URL}images/環境溫溼度與露點關係圖.jpg`}
               alt="環境溫溼度與露點關係圖" 
               className="w-full h-auto rounded-lg"
             />
